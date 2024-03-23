@@ -1,0 +1,94 @@
+
+/* for login and signup*/
+.container {
+    margin-top: 50px;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+
+
+.form-check {
+    margin-bottom: 20px;
+}
+
+
+
+/* for sidebar */
+.sidebar {
+    width: 200px;
+    height: 600px; 
+}
+
+.nav-link {
+    color: #111111; 
+}
+
+.nav-link:hover {
+    color: #503cff; 
+}
+
+
+.nav-link.active {
+    color: #ff5722; 
+}
+
+.fixed-sidebar {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    bottom: 20px; 
+    width: 200px;
+    z-index: 1000; 
+    overflow-y: auto; 
+}
+
+.fixed-sidebar {
+    position: fixed;
+    top: 70px; 
+    left: 0;
+    bottom: 20px; 
+    width: 200px;
+    z-index: 1000; 
+    overflow-y: auto; 
+}
+
+.content{
+    margin-top: 250px;
+}
+/*End*/
+
+
+
+
+/* for header */
+.header-section {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; 
+}
+/*End*/
